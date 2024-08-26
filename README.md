@@ -52,9 +52,14 @@ Can the price movements of oil and gold serve as early indicators for future cha
 ***Datasets and Sources***
 
 Daily Silver Prices : https://www.kaggle.com/datasets/balabaskar/silver-prices-1968-2021
+
 Gold Prices: https://www.kaggle.com/code/daniilkrasnoproshin/random-forest-for-regression-problems/input
+
 Brent Oil Prices: [Kaggle](https://www.kaggle.com/datasets/mabusalah/brent-oil-prices)
-Data Preparation
+
+***Data Preparation***
+
+
 The data preparation phase involved several key steps:
 
 ***Loading the datasets:*** The datasets for oil, gold, and silver prices were loaded from CSV files.
