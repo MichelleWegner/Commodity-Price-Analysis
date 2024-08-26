@@ -40,11 +40,14 @@ The results provide insights into the relationships between these commodities, t
 ***1. Influence of Commodity Prices on Markets:***
 How do the prices of commodities like oil, gold, and silver impact financial markets, and how can this knowledge guide better investment decisions?
 
+
 ***2. Impact of Price Volatility:***
 How does the volatility in oil prices affect the prices of other commodities like gold and silver?
 
-***Predicting Future Price Movements:***
+
+***3. Predicting Future Price Movements:***
 Can the price movements of oil and gold serve as early indicators for future changes in silver prices?
+
 
 ***Datasets and Sources***
 
