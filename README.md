@@ -88,11 +88,17 @@ merged_data.to_csv('Clean Data/merged_data.csv', index=False)
 During the EDA phase, we explored the following:
 
 ***Distribution of Commodity Prices:*** Visualized the distribution of oil, gold, and silver prices.
+
 ***Price Trends Over Time:*** Analyzed the trend of prices from 2008 to 2018.
+
 ***Correlation Analysis:*** Examined the correlation between the prices of oil, gold, and silver.
+
 ***Key Findings:***
+
 ***Oil prices:*** Showed significant volatility with two peaks, indicating market instability during certain periods.
+
 ***Gold prices:*** Were relatively stable with a peak around 2011-2012, possibly due to economic uncertainty.
+
 ***Silver prices:*** Displayed a sharp peak around 2011, similar to gold, but with greater overall volatility.
 
 ## Statistical Analysis and Hypothesis Testing
@@ -112,7 +118,8 @@ During the EDA phase, we explored the following:
 # Example code for hypothesis testing
 from scipy.stats import pearsonr
 corr_gold_oil, p_value_gold_oil = pearsonr(merged_data['GLD'], merged_data['OIL'])
-Predictive Modeling
+
+***Predictive Modeling***
 We implemented three models for forecasting future prices:
 
 Prophet: Used for trend-based forecasting, capturing long-term trends but with higher uncertainty.
@@ -122,7 +129,11 @@ Model Performance:
 Prophet Model (Oil): RMSE = 8.71, MAE = 6.38
 ARIMA Model (Silver): RMSE = 0.61, MAE = 0.32
 LSTM Model (Silver): RMSE = 0.78, MAE = 0.65
+
+
 Results
+
+
 The analysis revealed key insights into how the prices of oil, gold, and silver are interrelated. The models demonstrated varying degrees of success in forecasting future prices, with ARIMA being the most accurate for silver price prediction.
 
 ***Conclusion***
