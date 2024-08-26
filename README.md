@@ -3,18 +3,32 @@
 ***Table of Contents***
 
 Project Overview
+
 Problem Statements
+
 Datasets and Sources
+
 Data Preparation
+
 Exploratory Data Analysis (EDA)
+
 Statistical Analysis and Hypothesis Testing
+
 Predictive Modeling
+
 Results
+
 Conclusion
+
 How to Run the Project
+
 Presentation
+
 Acknowledgements
-Project Overview
+
+
+
+***Project Overview***
 
 The goal of this project is to perform an end-to-end data analysis on price data of three key commodities: Oil, Gold, and Silver. 
 The project applies various data analysis techniques, including exploratory data analysis (EDA), statistical hypothesis testing, 
