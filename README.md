@@ -104,11 +104,17 @@ corr_gold_oil, p_value_gold_oil = pearsonr(merged_data['GLD'], merged_data['OIL'
 We implemented three models for forecasting future prices:
 
 Prophet: Used for trend-based forecasting, capturing long-term trends but with higher uncertainty.
+
 ARIMA: Provided the best performance for silver price prediction with the lowest RMSE.
+
 LSTM: Captured short-term fluctuations effectively.
+
 Model Performance:
+
 Prophet Model (Oil): RMSE = 8.71, MAE = 6.38
+
 ARIMA Model (Silver): RMSE = 0.61, MAE = 0.32
+
 LSTM Model (Silver): RMSE = 0.78, MAE = 0.65
 
 
