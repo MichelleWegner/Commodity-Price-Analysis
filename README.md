@@ -112,7 +112,7 @@ ARIMA Model (Silver): RMSE = 0.61, MAE = 0.32
 LSTM Model (Silver): RMSE = 0.78, MAE = 0.65
 
 
-Results
+***Results***
 
 
 The analysis revealed key insights into how the prices of oil, gold, and silver are interrelated. The models demonstrated varying degrees of success in forecasting future prices, with ARIMA being the most accurate for silver price prediction.
