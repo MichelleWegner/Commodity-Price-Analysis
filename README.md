@@ -21,6 +21,15 @@ How does the volatility in oil prices affect the prices of other commodities lik
 Can the price movements of oil and gold serve as early indicators for future changes in silver prices?
 
 
+***Applicability to Current Data***
+
+Although ***this project focuses on data from 2008 to 2018***, the methods and models used, such as Prophet, ARIMA, and LSTM, are robust and adaptable. 
+***They can be effectively applied to current datasets from 2023 or beyond.***
+These models are designed to handle time series data and can provide valuable insights and predictions for present-day commodity prices or other financial data.
+
+Whether analyzing historical trends or forecasting future market behavior, these techniques remain highly relevant for understanding and predicting volatile markets such as oil, gold, and silver.
+
+
 ***Datasets and Sources***
 
 Daily Silver Prices : https://www.kaggle.com/datasets/balabaskar/silver-prices-1968-2021
@@ -95,15 +104,21 @@ corr_gold_oil, p_value_gold_oil = pearsonr(merged_data['GLD'], merged_data['OIL'
 We implemented three models for forecasting future prices:
 
 Prophet: Used for trend-based forecasting, capturing long-term trends but with higher uncertainty.
+
 ARIMA: Provided the best performance for silver price prediction with the lowest RMSE.
+
 LSTM: Captured short-term fluctuations effectively.
+
 Model Performance:
+
 Prophet Model (Oil): RMSE = 8.71, MAE = 6.38
+
 ARIMA Model (Silver): RMSE = 0.61, MAE = 0.32
+
 LSTM Model (Silver): RMSE = 0.78, MAE = 0.65
 
 
-Results
+***Results***
 
 
 The analysis revealed key insights into how the prices of oil, gold, and silver are interrelated. The models demonstrated varying degrees of success in forecasting future prices, with ARIMA being the most accurate for silver price prediction.
